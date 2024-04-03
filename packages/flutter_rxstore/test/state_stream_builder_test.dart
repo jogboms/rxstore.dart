@@ -1,7 +1,6 @@
 import 'package:flutter/widgets.dart' hide Action;
 import 'package:flutter_rxstore/flutter_rxstore.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:rxstore/rxstore.dart';
 
 void main() {

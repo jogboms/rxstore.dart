@@ -1,6 +1,5 @@
 import 'package:flutter/widgets.dart' hide Action;
 import 'package:flutter_rxstore/flutter_rxstore.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:rxstore/rxstore.dart';
 
 /// Function that dispatches the action by passing it to the reducer and,
