@@ -27,6 +27,7 @@ linter:
     - await_only_futures
     - camel_case_types
     - cascade_invocations
+    - collection_methods_unrelated_type
     - comment_references
     - constant_identifier_names
     - diagnostic_describe_all_properties
@@ -35,9 +36,7 @@ linter:
     - file_names
     - hash_and_equals
     - implementation_imports
-    - iterable_contains_unrelated_type
     # - lines_longer_than_80_chars # readability is sometimes better with longer lines
-    - list_remove_unrelated_type
     - non_constant_identifier_names
     - overridden_fields
     - package_names
