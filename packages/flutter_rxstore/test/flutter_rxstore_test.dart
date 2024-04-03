@@ -41,7 +41,7 @@ void main() {
 
       final StoreCaptor<int> captor = tester.firstWidget<StoreCaptor<int>>(find.byKey(StoreCaptor.captorKey));
 
-      expect(captor.store?.state.valueWrapper?.value, 1337);
+      expect(captor.store?.state.value, 1337);
     });
   });
 }

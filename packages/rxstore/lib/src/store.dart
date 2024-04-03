@@ -96,7 +96,7 @@ class Store<State> {
   }
 
   Action _reduce(Action action) {
-    final currentState = state.requireValue;
+    final currentState = state.value;
     final newState = _reducer(currentState, action);
     if (newState != currentState) {
       _changeSubject.add(newState);

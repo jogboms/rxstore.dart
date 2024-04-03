@@ -146,7 +146,7 @@ void main() {
         }
 
         Epic<int> epic() => (Stream<Action> actions, ValueStream<int> state) =>
-            actions.whereType<AddInt>().switchMap((AddInt action) => _handleAction(action, state.requireValue));
+            actions.whereType<AddInt>().switchMap((AddInt action) => _handleAction(action, state.value));
 
         Store<int>(intReducer, initialState: 42, epic: epic()).dispatch(const AddInt(42));
       });
