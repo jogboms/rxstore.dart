@@ -51,7 +51,7 @@ class RxStoreApp extends StatelessWidget {
                   builder: (context, snapshot) {
                     return Text(
                       '${snapshot.data}',
-                      style: Theme.of(context).textTheme.headline4,
+                      style: Theme.of(context).textTheme.headlineMedium,
                     );
                   },
                 ),
